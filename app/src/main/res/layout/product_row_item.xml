@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:layout_marginTop="5dp"
+    android:padding="5dp"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/products"
+        android:id="@+id/thumbnail"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        >
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Product name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Price"
+
+            />
+
+        <TextView
+            android:id="@+id/product_link"
+            android:layout_width="101dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="20dp"
+            android:text="Product Link" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/aliexpress"
+        android:id="@+id/thumbnailae"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        >
+
+        <TextView
+            android:id="@+id/product_nameae"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Product name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/priceae"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Price" />
+
+        <TextView
+            android:id="@+id/product_linkae"
+            android:layout_width="102dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="20dp"
+            android:text="Product Link" />
+
+    </LinearLayout>
+
+</LinearLayout>
